@@ -1,0 +1,14 @@
+[
+    {
+        "position": [-5, 5, 5],
+        "name": "stock4.jpg"
+    },
+    {
+        "position": [-5, -5, 5],
+        "name": "stock5.jpg"
+    },
+    {
+        "position": [5, 0, 5],
+        "name": "stock6.jpg"
+    }
+]
