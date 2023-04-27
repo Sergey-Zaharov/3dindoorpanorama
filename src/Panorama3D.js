@@ -130,7 +130,7 @@ class Panorama3D {
         this.scene.add(ambient);
 
         this.controls = new OrbitControls(this.camera, this.renderer.domElement);
-        this.controls.enableZoom = true;
+        this.controls.enableZoom = false;
 
         const sphereG = new THREE.SphereGeometry(1000);
         const sphereMesh = new THREE.Mesh(sphereG, this.constants.BACKGROUND_SPHERE_MATERIAL);
